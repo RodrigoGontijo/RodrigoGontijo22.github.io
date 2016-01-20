@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
+  background-image:url('home_image.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,8 +22,20 @@
   top:100px;
 }
 
+
+.jumbotron .world{
+   position: relative;
+   left: 110px;
+}
+
+.jumbotron .change{
+   position: relative;
+   left: 190px;
+}
+
+
 .jumbotron h1 {
-  color: #fff;
+  color: #00bfff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
@@ -42,8 +54,15 @@
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  color: #00bfff;
 }
 
 .learn-more a {
   color: #00b0ff;
 }
+.profile_image img{
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	display: block;
+	}
