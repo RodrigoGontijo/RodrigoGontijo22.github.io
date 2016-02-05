@@ -11,15 +11,37 @@
 }
 
 .jumbotron {
-  background-image:url('home_image.jpg');
+  background-image:url('../drawable/home_image.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: bold;
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
+  width: 450px;
+  height: 200px;
+  right: 500px;
+}
+
+.fb img{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.in img{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.insta img{
+  width: 61px;
+  height: 62px;
+  margin-left: 25px;
 }
 
 
@@ -35,7 +57,7 @@
 
 
 .jumbotron h1 {
-  color: #00bfff;
+  color: #ffffff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
@@ -65,4 +87,4 @@
 	width: 180px;
 	height: 180px;
 	display: block;
-	}
+}
